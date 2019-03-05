@@ -1,10 +1,12 @@
-import { Component, ChangeDetectionStrategy } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
-  //changeDetection: ChangeDetectionStrategy.OnPush,
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template: `
+  <nav>
+    <a routerLink="buscador">Lanzamientos</a>
+  <nav>
+  <router-outlet></router-outlet>`
 })
 export class AppComponent {
   title = 'speed';

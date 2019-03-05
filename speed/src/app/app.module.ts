@@ -12,6 +12,7 @@ import { ResultadoBusquedaPresenterComponent } from './resultado-busqueda-presen
 import { ContadorPresenterComponent } from './contador-presenter.component';
 
 import { BuscadorService } from './buscador.service';
+import { BuscadorComponent } from './buscador.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { BuscadorService } from './buscador.service';
     BuscadorContainerComponent,
     BusquedaCriteriosPresenterComponent,
     ResultadoBusquedaPresenterComponent,
-    ContadorPresenterComponent
+    ContadorPresenterComponent,
+    BuscadorComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'serverApp' }),
